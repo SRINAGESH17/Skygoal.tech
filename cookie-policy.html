@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,170 +15,153 @@
 
     <link rel="stylesheet" href="css/policy.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/efd71d3ed7.js" crossorigin="anonymous"></script>
-    
+
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6111174dd6e7610a49af5092/1fclc61qt';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6111174dd6e7610a49af5092/1fclc61qt';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
     </script>
     <!--End of Tawk.to Script-->
-    
+
+    <script>
+        $(function() {
+            $("#footer").load("footer.html");
+        });
+    </script>
+
     <style>
-        .socials a{
-            margin:5px;
+        .socials a {
+            margin: 5px;
         }
     </style>
 
 
-    </head>
-    <body>
-<!--Navbar-->
+</head>
 
-<nav class="navbar" id="nav">
-    <div><a href="index.html"><img src="Icons/skygoal-Logo.png" width=100px height=100px ></a></div>
-    
-    <a href ="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </a>
-    
-    <div class="r-nav" id="n">
-        <div class="hover" id="hover"><hr></div>
-        <ul >
-            
-            <li class="act" id="active"><a href="index.html" class="m-links">Home</a></li>
-            <li class="act"><a class="m-links" href="about-us.html">About us</a></li>
-            <div class="dropdown">
-            <li class="act"><a class="m-links" > Solutions</a></li>
-            <div class="dropdown-content">
-                <div class="inner">
-                <div class="first">
-                <a href="ai-ml.html"><img src='Icons/technical-support 2.png'class="h-img" ><img src="Icons/technical-support-black.png"  class="n-img">AI and ML</a>
-                <a href="consultancy-services.html"><img src='Icons/Consult Talk.png'class="h-img" ><img src="Icons/consult (1) 1-black.png"  class="n-img">Consultancy Services</a>
-                <a href="corporate-services.html"><img src='Icons/corporate 1.png'class="h-img" ><img src="Icons/corporate 2-black.png"  class="n-img">Corporate Services</a>
-                <a href="cloud-solutions.html"><img src='Icons/Group-1.png'class="h-img" ><img src="Icons/cloud 1-black.png"  class="n-img">Cloud Solutions</a>
-               </div>
-               <div>
-                <a href="educational-services.html"><img src='Icons/Group.png'class="h-img" ><img src="Icons/mortarboard 1-black.png"  class="n-img">Edu-Tech Solutions</a>
-                <a href="e-commerce-solutions.html"><img src='Icons/iconfinder_cart-5_3338940 2.png'class="h-img" ><img src="Icons/iconfinder_cart-5_3338940 1-black.png"  class="n-img">E-commerce</a>
-                <a href="mobile-app-development.html"><img src='Icons/coding 1.png'class="h-img" ><img src="Icons/coding 1-black.png"  class="n-img">Mobile App Development</a>
-                <a href="graphic.html"><img src='Icons/vector 2.png'class="h-img" ><img src="Icons/vector 1-black.png"  class="n-img">Graphic</a>
-               </div>
-               </div>
+<body>
+    <!--Navbar-->
+
+    <nav class="navbar" id="nav">
+        <div>
+            <a href="index.html"><img src="Icons/skygoal-Logo.png" width=100px height=100px></a>
+        </div>
+
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <div class="r-nav" id="n">
+            <div class="hover" id="hover">
+                <hr>
             </div>
-            </div>
-            <li class="act"><a class="m-links" href="portfolio.html">Portfolio</a></li>
-            <li class="act"  ><a class="m-links" href="careers.html">Careers</a></li>
-            <li class="act"><a href="contact-us.html" class="m-links" >Contact Us</a></li>
+            <ul>
 
-
-            <li><button id="show" href="#" style="margin-top: 26px;"> <img src="Icons/Contact-vector.png" width="15px" height="16px" style="margin-right:8px;">Get Instant Call Back</button>
-                <div class="modal" id="modal-res">
-                    <div class="modal-content">
-                        <span style="cursor: pointer" id="close-2">&times;</span>
-                        <h1 style="text-align: center;">Get Instant Call back</h1>
-                        <div class="modal-flex">
-                        <div class="a-img-cont"><img src="Icons/Support center.png" class="a-img"></div>
-                        <div>
-                        <form name="Instant Call" action="" method="post" id="form"  onsubmit="return closeSelfres(this);" >
-                        <div>
-                        <input type="text" placeholder="Name" name="Name" required><br>
-                        <input type="email" placeholder="Email" name="email" required><br>
-                        <input type="tel" pattern="[0-9]{10}" name="Phone no" placeholder="+91 9999999999" required><br>
-                        <div class="btn-div">
-                        <button type="submit"type="submit" name="submit" value="Send message" class="bn">Submit</button>
+                <li class="act" id="active"><a href="index.html" class="m-links">Home</a></li>
+                <li class="act"><a class="m-links" href="about-us.html">About us</a></li>
+                <div class="dropdown">
+                    <li class="act"><a class="m-links"> Solutions</a></li>
+                    <div class="dropdown-content">
+                        <div class="inner">
+                            <div class="first">
+                                <a href="ai-ml.html"><img src='Icons/technical-support 2.png' class="h-img"><img src="Icons/technical-support-black.png" class="n-img">AI and ML</a>
+                                <a href="consultancy-services.html"><img src='Icons/Consult Talk.png' class="h-img"><img src="Icons/consult (1) 1-black.png" class="n-img">Consultancy Services</a>
+                                <a href="corporate-services.html"><img src='Icons/corporate 1.png' class="h-img"><img src="Icons/corporate 2-black.png" class="n-img">Corporate Services</a>
+                                <a href="cloud-solutions.html"><img src='Icons/Group-1.png' class="h-img"><img src="Icons/cloud 1-black.png" class="n-img">Cloud Solutions</a>
+                            </div>
+                            <div>
+                                <a href="educational-services.html"><img src='Icons/Group.png' class="h-img"><img src="Icons/mortarboard 1-black.png" class="n-img">Edu-Tech Solutions</a>
+                                <a href="e-commerce-solutions.html"><img src='Icons/iconfinder_cart-5_3338940 2.png' class="h-img"><img src="Icons/iconfinder_cart-5_3338940 1-black.png" class="n-img">E-commerce</a>
+                                <a href="mobile-app-development.html"><img src='Icons/coding 1.png' class="h-img"><img src="Icons/coding 1-black.png" class="n-img">Mobile App Development</a>
+                                <a href="graphic.html"><img src='Icons/vector 2.png' class="h-img"><img src="Icons/vector 1-black.png" class="n-img">Graphic</a>
+                            </div>
                         </div>
-                        </div>
-                        </div>
-                        </form>
-                        
-                        </div>
-                        <p style="text-align:center;color:white;">SERVING 150+ INSTANT CALL BACKS</p>
                     </div>
                 </div>
-    
-            </li>
-        </ul>
-
-    </div>
+                <li class="act"><a class="m-links" href="portfolio.html">Portfolio</a></li>
+                <li class="act"><a class="m-links" href="careers.html">Careers</a></li>
+                <li class="act"><a href="contact-us.html" class="m-links">Contact Us</a></li>
 
 
-</nav>
-<div class="intro">
-<h1>Terms and Conditions</h1><br><br>
-<p>Welcome to SKYGOALTECH
-    These terms and conditions outline the rules and regulations for the use of SKYGOALTECH
-    Website, located at <a href="https://skygoaltech.com">https://skygoaltech.com</a>
-    By accessing this website, we assume you accept these terms and conditions. Do not continue
-    to use SKYGOALTECHif you do not agree to take all of the terms and conditions stated on this
-    page.<br><br>
-    The following terminology applies to these Terms and Conditions, Privacy Statement and
-    Disclaimer Notice and all Agreements: “Client”, “You” and “Your” refers to you, the person log
-    on this website and compliant to the Company’s terms and conditions. “The Company”,
-    “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to
-    both the Client and ourselves. All terms refer to the offer, acceptance and consideration of
-    payment necessary to undertake the process of our assistance to the Client in the most
-    appropriate manner for the express purpose of meeting the Client’s needs in respect of the
-    provision of the Company’s stated services, in accordance with and subject to, prevailing law of
-    Netherlands. Any use of the above terminology or other words in the singular, plural,
-    capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to
-    same.</p><br>
-    <h1>Cookies</h1><br><br>
-    <p>We employ the use of cookies. By accessing SKYGOALTECH, you agreed to use cookies in
-    agreement with the SKYGOALTECH Privacy Policy.<br><br>
-    Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies
-    are used by our website to enable the functionality of certain areas to make it easier for people
-    visiting our website. Some of our affiliate/advertising partners may also use cookies.</p><br>
-    <h1>License</h1><br><br>
-    <p>
-        Unless otherwise stated, SKYGOALTECH and/or its licensors own the intellectual property rights
-        for all material on SKYGOALTECH. All intellectual property rights are reserved. You may access
-        this from SKYGOALTECH for your own personal use subjected to restrictions set in these terms
-        and conditions.<br><br>
-        You must not:<br>
-        
-        <ul>
-        <br>
-        <li>Republish material from SKYGOALTECH</li>
-        <li> Sell, rent or sub-license material from SKYGOALTECH</li>
-        <li>Reproduce, duplicate or copy material from SKYGOALTECH</li> 
-        <li>Redistribute content from SKYGOALTECH</li>
-       </ul>
-       <br>
-        Parts of this website offer an opportunity for users to post and exchange opinions and
-        information in certain areas of the website. SKYGOAL TECH does not filter, edit, publish or
-        review Comments prior to their presence on the website. Comments do not reflect the views and
-        opinions of SKYGOALTECH, its agents and/or affiliates. Comments reflect the views and
-        opinions of the person who post their views and opinions. To the extent permitted by applicable
-        laws, SKYGOAL TECH shall not be liable for the Comments or for any liability, damages or
-        expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance
-        of the Comments on this website.<br><br>
-        SKYGOAL TECH reserves the right to monitor all Comments and to remove any Comments
-        which can be considered inappropriate, offensive or causes breach of these Terms and
-        Conditions.<br><br>
-        
-        You warrant and represent that:
-        <ul><br>
-        <li> You are entitled to post the Comments on our website and have all necessary
-        licenses and consents to do so;</li>
-        <li>The Comments do not invade any intellectual property right, including without
-        limitation copyright, patent or trademark of any third party;</li>
-        <li> The Comments do not contain any defamatory, libellous, offensive, indecent or
-        otherwise unlawful material which is an invasion of privacy</li>
-        <li>The Comments will not be used to solicit or promote business or custom or present
-        commercial activities or unlawful activity.</li> 
-       </ul><br>
-        You hereby grant SKYGOAL TECH a non-exclusive license to use, reproduce, edit and authorize
-        others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p><br><br>
+                <li><button id="show" href="#" style="margin-top: 26px;"> <img src="Icons/Contact-vector.png" width="15px" height="16px" style="margin-right:8px;">Get Instant Call Back</button>
+                    <div class="modal" id="modal-res">
+                        <div class="modal-content">
+                            <span style="cursor: pointer" id="close-2">&times;</span>
+                            <h1 style="text-align: center;">Get Instant Call back</h1>
+                            <div class="modal-flex">
+                                <div class="a-img-cont"><img src="Icons/Support center.png" class="a-img"></div>
+                                <div>
+                                    <form name="Instant Call" action="" method="post" id="form" onsubmit="return closeSelfres(this);">
+                                        <div>
+                                            <input type="text" placeholder="Name" name="Name" required><br>
+                                            <input type="email" placeholder="Email" name="email" required><br>
+                                            <input type="tel" pattern="[0-9]{10}" name="Phone no" placeholder="+91 9999999999" required><br>
+                                            <div class="btn-div">
+                                                <button type="submit" type="submit" name="submit" value="Send message" class="bn">Submit</button>
+                                            </div>
+                                        </div>
+                                </div>
+                                </form>
+
+                            </div>
+                            <p style="text-align:center;color:white;">SERVING 150+ INSTANT CALL BACKS</p>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+
+
+    </nav>
+    <div class="intro">
+        <h1>Terms and Conditions</h1><br><br>
+        <p>Welcome to SKYGOALTECH These terms and conditions outline the rules and regulations for the use of SKYGOALTECH Website, located at <a href="https://skygoaltech.com">https://skygoaltech.com</a> By accessing this website, we assume you accept these
+            terms and conditions. Do not continue to use SKYGOALTECHif you do not agree to take all of the terms and conditions stated on this page.
+            <br><br> The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: “Client”, “You” and “Your” refers to you, the person log on this website and compliant to the Company’s terms
+            and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary
+            to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of the provision of the Company’s stated services, in accordance with and subject to,
+            prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
+        </p><br>
+        <h1>Cookies</h1><br><br>
+        <p>We employ the use of cookies. By accessing SKYGOALTECH, you agreed to use cookies in agreement with the SKYGOALTECH Privacy Policy.<br><br> Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are
+            used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p><br>
+        <h1>License</h1><br><br>
+        <p>
+            Unless otherwise stated, SKYGOALTECH and/or its licensors own the intellectual property rights for all material on SKYGOALTECH. All intellectual property rights are reserved. You may access this from SKYGOALTECH for your own personal use subjected to
+            restrictions set in these terms and conditions.<br><br> You must not:<br>
+
+            <ul>
+                <br>
+                <li>Republish material from SKYGOALTECH</li>
+                <li> Sell, rent or sub-license material from SKYGOALTECH</li>
+                <li>Reproduce, duplicate or copy material from SKYGOALTECH</li>
+                <li>Redistribute content from SKYGOALTECH</li>
+            </ul>
+            <br> Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. SKYGOAL TECH does not filter, edit, publish or review Comments prior to their presence on the website.
+            Comments do not reflect the views and opinions of SKYGOALTECH, its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, SKYGOAL TECH
+            shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.<br><br> SKYGOAL TECH reserves the right to
+            monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
+            <br><br> You warrant and represent that:
+            <ul><br>
+                <li> You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
+                <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
+                <li> The Comments do not contain any defamatory, libellous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
+                <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
+            </ul><br> You hereby grant SKYGOAL TECH a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p><br><br>
 
         <h1>Hyperlinking to our Content</h1><br><br>
         <p>The following organizations may link to our website without prior written approval:</p>
@@ -185,19 +169,14 @@
             <li>Government agencies;</li>
             <li>Search engines;</li>
             <li>News organizations;</li>
-            <li>Online directory distributors may link to our website in the same manner as they
-                hyperlink to the Websites of other listed businesses; and</li>
-            <li>System wide Accredited Businesses except soliciting non-profit organizations, charity
-                shopping malls, and charity fundraising groups which may not hyperlink to our Web
-                site.</li>
+            <li>Online directory distributors may link to our website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
+            <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
+            </li>
         </ul>
         <br>
-        <p>These organizations may link to our home page, to publications or to other Website information
-            so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship,
-            endorsement or approval of the linking party and its products and/or services; and (c) fits within
-            the context of the linking party’s site.
-            <br><br>
-            We may consider and approve other link requests from the following types of organizations:</p>
+        <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products
+            and/or services; and (c) fits within the context of the linking party’s site.
+            <br><br> We may consider and approve other link requests from the following types of organizations:</p>
         <ul><br>
             <li>commonly-known consumer and/or business information sources;</li>
             <li>dot.com community sites;</li>
@@ -207,168 +186,78 @@
             <li>accounting, law and consulting firms; and</li>
             <li>educational institutions and trade associations.</li>
         </ul><br>
-        <p>We will approve link requests from these organizations if we decide that: (a) the link would not
-            make us look unfavourably to ourselves or to our accredited businesses; (b) the organization
-            does not have any negative records with us; (c) the benefit to us from the visibility of the
-            hyperlink compensates the absence of SKYGOALTECH; and (d) the link is in the context of
-            general resource information.<br><br>
-            These organizations may link to our home page so long as the link: (a) is not in any way
-            deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party
-            and its products or services; and (c) fits within the context of the linking party’s site.<br><br>
-            If you are one of the organizations listed in paragraph 2 above and are interested in linking to our
-            website, you must inform us by sending an e-mail to SKYGOALTECH. Please include your
-            name, your organization name, contact information as well as the URL of your site, a list of any
-            URLs from which you intend to link to our website, and a list of the URLs on our site to which you
-            would like to link. Wait 2-3 weeks for a response.<br><br>
-            Approved organizations may hyperlink to our website as follows:</p>
-            <ul>
-                <li>By use of our corporate name; or</li>
-                <li>By use of the uniform resource locator being linked to; or</li>
-                <li>By use of any other description of our website being linked to that makes sense within
-                    the context and format of content on the linking party’s site.</li>
-            </ul>
-           <p> No use of SKYGOALTECH logo or other artwork will be allowed for linking absent a trademark
-           license agreement.</p><br><br>
-           <h1>iFrames</h1><br><br>
-           <p>Without prior approval and written permission, you may not create frames around our Webpages
-            that alter in any way the visual presentation or appearance of our website.</p><br><br>
-            <h1>Content Liability</h1><br><br>
-            <p>We shall not be hold responsible for any content that appears on your Website. You agree to
-            protect and defend us against all claims that is rising on your Website. No link(s) should appear
-            on any Website that may be interpreted as libellous, obscene or criminal, or which infringes,
-            otherwise violates, or advocates the infringement or other violation of, any third-party rights.</p><br><br>
-            <h1>Your Privacy</h1><br><br>
-            <p>Please read Privacy Policy</p><br><br>
-            <h1>Reservation of Rights</h1><br><br>
-            <p>We reserve the right to request that you remove all links or any particular link to our website. You
-            approve to immediately remove all links to our Website upon request. We also reserve the right
-            to amen these terms and conditions and it’s linking policy at any time. By continuously linking to
-            our website, you agree to be bound to and follow these linking terms and conditions.</p><br><br>
-            <h1>Removal of links from our website</h1><br><br>
-            <p>If you find any link on our website that is offensive for any reason, you are free to contact and
-            inform us any moment. We will consider requests to remove links but we are not obligated to or
-            so or to respond to you directly.</p><br><br>
-            <p>We do not ensure that the information on this website is correct, we do not warrant its
-            completeness or accuracy; nor do we promise to ensure that the website remains available or
-            that the material on the website is kept up to date.</p><br><br>
-            <h1>Disclaimer</h1><br><br>
-            <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties
-                and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p><br>
-            <ul><br>
-                <li>limit or exclude our or your liability for death or personal injury;</li>
-                <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-                <li>limit any of our or your liabilities in any way that is not permitted under applicable law;
-                 or</li>
-                <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
-            </ul><br>
-            <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a)
-                are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer,
-                including liabilities arising in contract, in tort and for breach of statutory duty.<br>
-                As long as the website and the information and services on the website are provided free of
-                charge, we will not be liable for any loss or damage of any nature.</p><br><br>
-            </div>
-            <!--Footer Starts-->
-     
-      <!--  -->
-      <footer>
-        <div class="footer-links ">
-            <div><h2>About us</h2><p>We at SkyGoal Tech <br>are both skilled and<br> enthusiastic about providing <br>tech solutions from <br>conception to completion
-            </p>
-            <div style="display:flex;" class="socials">
-            <a href="https://www.facebook.com/skygoaltechlabs" style="text-decoration: none;">
-                <i class="fab fa-facebook fa-2x"  style="color:white;" aria-hidden="true"></i>
-              </a>
-            
-              <a href="https://www.instagram.com/skygoaltech/"style="text-decoration: none;">
-                <i class="fab fa-instagram fa-2x"  style="color:white;" aria-hidden="true"></i>
-              </a>
+        <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavourably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit
+            to us from the visibility of the hyperlink compensates the absence of SKYGOALTECH; and (d) the link is in the context of general resource information.<br><br> These organizations may link to our home page so long as the link: (a) is not in
+            any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.<br><br> If you are one of the organizations
+            listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to SKYGOALTECH. Please include your name, your organization name, contact information as well as the URL of your site, a list
+            of any URLs from which you intend to link to our website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.<br><br> Approved organizations may hyperlink to our website as follows:</p>
+        <ul>
+            <li>By use of our corporate name; or</li>
+            <li>By use of the uniform resource locator being linked to; or</li>
+            <li>By use of any other description of our website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
+        </ul>
+        <p> No use of SKYGOALTECH logo or other artwork will be allowed for linking absent a trademark license agreement.</p><br><br>
+        <h1>iFrames</h1><br><br>
+        <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our website.</p><br><br>
+        <h1>Content Liability</h1><br><br>
+        <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libellous,
+            obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third-party rights.</p><br><br>
+        <h1>Your Privacy</h1><br><br>
+        <p>Please read Privacy Policy</p><br><br>
+        <h1>Reservation of Rights</h1><br><br>
+        <p>We reserve the right to request that you remove all links or any particular link to our website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking
+            policy at any time. By continuously linking to our website, you agree to be bound to and follow these linking terms and conditions.</p><br><br>
+        <h1>Removal of links from our website</h1><br><br>
+        <p>If you find any link on our website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p><br><br>
+        <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p><br><br>
+        <h1>Disclaimer</h1><br><br>
+        <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p><br>
+        <ul><br>
+            <li>limit or exclude our or your liability for death or personal injury;</li>
+            <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+            <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or
+            </li>
+            <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+        </ul><br>
+        <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract,
+            in tort and for breach of statutory duty.<br> As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p><br><br>
+    </div>
+    <!--Footer Starts-->
 
-              <a href="https://www.linkedin.com/company/skygoaltech/" style="text-decoration: none;">
-                <i class="fab fa-linkedin fa-2x" style="color:white;" aria-hidden="true"></i>
-              </a>
+    <!--  -->
+    <div id="footer"></div>
 
-              <a href="https://www.youtube.com/channel/UC23cSFuUOdz-JdiV_1AybyQ"style="text-decoration: none;">
-                <i class="fab fa-youtube fa-2x"  style="color:white;"  aria-hidden="true"></i>
-              </a>
-
-              <a href="https://twitter.com/skygoaltech" style="text-decoration: none;">
-                <i class="fab fa-twitter fa-2x"  style="color:white;" aria-hidden="true"></i>
-              </a>
-            </div>
-            </div>
-            <div class="foot-cont" id="foot"><h2>Company</h2>
-                <ul>
-                  <li><a href="about-us.html">About us</a></li>
-                  <li><a href="careers.html">Careers</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a target="_blank" href=" https://blog.skygoaltech.com/">Blog</a></li>
-                  <li><a href="https://blog.skygoaltech.com/?p=56">Case Study</a></li>
-                  <li><a href="open-money.html">Open Money</a></li>
-                </ul>
-            </div>
-
-            <div class="foot-cont"><h2>Policies</h2>
-                <ul>
-                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                    <li><a href="data-deletion-policy.html">Data Deletion Policy</a></li>
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
-                    <li><a href="refund-policy.html">Refund Policy</a></li>
-                    <li><a href="return-policy.html">Return Policy</a></li>
-                   </ul>
-            </div>
-         
-            <div class="foot-cont"><h2>Solutions</h2>
-             <ul>
-             <li><a href="ai-ml.html">AI and ML</a></li>
-             <li><a href="consultancy-services.html">Consultancy Services</a></li>
-             <li><a href="corporate-services.html">Corporate Services</a></li>
-             <li><a href="cloud-solutions.html">Cloud Solutions</a></li>
-             <li>
-             <a href="educational-services.html">Edu-Tech Solutions</a></li>
-             <li><a href="e-commerce-solutions.html">E-commerce</a></li>
-             <li><a href="mobile-app-development.html">Mobile App Development</a></li>
-             <li><a href="graphic.html">Graphic</a></li>
-             </ul>
-             </div>
-       
-           
-        <div  class="foot-cont"><h2>Contact Us</h2>
-           
-               <p><img src="Icons/Address icon.png"> Address</p><p>India</p><p style="font-size: 12px;">Unit no. 21,<br> First floor, M.G. Commercial,<br> Complex, <br> Gollapudi. Vijayawada
-                521218</p><p >United States</p><p style="font-size: 12px;">16192 Coastal Highway<br>Lewes, DE 19958<br>
-                United States</p><p><img src="Icons/Contact-vector.png" width="15px" height="16px" style="padding-right:4px;">Call</p><p><a href="tel:1800 419 3878">1800 419 3878</a></p><p><img src="Icons/email icon.png"  style="padding-right:4px;">Email</p><p><a href="mailto:sales@skygoaltech.com">sales@skygoaltech.com</a></p>
-           
-       </div>
-       </div>
-       <div style="text-align: center;padding: 10px;color:#fff;">© 2021<span > <a href="index.html" style="color:#D8445C;font-weight: bold;text-decoration: none;">Sky Goal INC.</a></span> All rights reserved.</div>
-       </footer>
-       <button onclick="gototop()" id="top">&#128285;</button>
-       <script src="src/script.js"></script>
-       <script>
+    <button onclick="gototop()" id="top">&#128285;</button>
+    <script src="src/script.js"></script>
+    <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwTYSaPKuJ2at9mG0XpxScs-zypRZ9PCoQGvoQP5Gw0jQH09fhW6NVgKXSyXws5wIeI7w/exec'
         const form = document.forms['Instant Call']
 
         form.addEventListener('submit', e => {
             e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!'),form.reset())
-            .catch(error => console.error('Error!', error.message))
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => console.log('Success!'), form.reset())
+                .catch(error => console.error('Error!', error.message))
         })
-        
-        function closeSelf (f) {
-        var modal = document.getElementById("modal");
-        f.submit();
-        modal.style.display="none";
-        
+
+        function closeSelf(f) {
+            var modal = document.getElementById("modal");
+            f.submit();
+            modal.style.display = "none";
+
         }
-        function closeSelfres (f) {
-        var modal = document.getElementById("modal-res");
-        modal.style.display="none";
-        
-       
-        
+
+        function closeSelfres(f) {
+            var modal = document.getElementById("modal-res");
+            modal.style.display = "none";
+
+
+
         }
     </script>
 </body>
+
 </html>
