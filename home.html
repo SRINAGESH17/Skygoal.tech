@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkygoalTech</title>
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- style sheets -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/home.css">
+
+     <link rel="stylesheet" type="text/css" href="./assets/css/header.css">
+
+    <!-- about us css link  -->
+    <link rel="stylesheet" href="./assets/css/aboutUs.css">
+
+    <!-- header js  -->
+    <script src="./assets/js/header.js"></script>
+
+     <!-- Owl Carousel -->
+
+     <link rel="stylesheet" type="text/css"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+     <link rel="stylesheet" type="text/css"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+ 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+
+     <!-- jquery  -->
+     <script
+     src="https://code.jquery.com/jquery-3.3.1.js"
+     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous">
+     </script>
+     <script> 
+     $(function(){
+       $("#header").load("header.html"); 
+       $("#footer").load("footer.html"); 
+     });
+     </script>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/skygoal-Logo 2.png">
+
+    <!-- swiper js -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+   
+    <!-- Initialize Swiper -->
+   <script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+  
+    const swiper = new Swiper('.swiper', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        freeMode: true,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+        500: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        }
+        },
+        
+        
+        
+        
+
+        // Navigation arrows
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+
+});
+</script>
+
+<!-- Initialize Swiper -->
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+  
+    const swiper2 = new Swiper('.swiper2', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+        100: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        900: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1280: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1350: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        }
+        },
+        
+        
+        
+        
+
+        // Navigation arrows
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+
+});
+</script>
+
+</head>
+<body style="overflow-x: hidden;">
+    <section style="overflow-x: hidden;">
+        <!-- nav bar  -->
+    <div id="header"></div>
+
+    <!-- <a href="/ml.html">ml page</a> -->
+    <div class="row">
+        <div class="row" id="row1">
+            <div class="col-sm-12 col-md-6 col-lg-6 p-5 ml-5 my-auto">
+                <h3 class="pb-4" id="text1">We Take Your Business Online with Next Gen Technologies.</b></h3>
+                <p>Skygoal.tech is a solution provider for digital transformation. We help you to deliver next generation products, services and ideas. Our collaborative method of delivery with our extended team of partners enables us to ensure that we understand what is required by you</p>
+            </div>
+    
+            <div class="col-sm-12 col-md-6 col-lg-6 px-5">
+                <img class="img-fluid" src="./assets/img/105937-tech.gif">
+            </div>
+        </div>
+
+
+    <!-- <div class="row pb-3">
+        <div class="col d-flex justify-content-center">
+            <h3><b>Our Services</b></h3>
+        </div> 
+    </div>  -->
+
+    <div class="container px-5" id="container1">
+        <div class="row px-5">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="./assets/img/Frame 6.png">
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 my-auto">
+                <h4><b>About Us</b></h4>
+
+                <p>We at SkyGoal Tech are both skilled and enthusiastic about providing tech solutions from conception to completion, assisting in the transformation of creative ideas into long-term and sustainable solutions, all while staying under budget and with a comprehensive grasp of the agility required.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row py-5">
+        <div class="col d-flex justify-content-center">
+            <h3><b>Our Services</b></h3>
+        </div>
+    </div>
+
+    <div class="row g-4 px-5" id="services">
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="./ml.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card1">
+                    <div class="card-body mb-0">
+                      <h4 class="card-title p-3"><b>Artificial intelligence (AI) and machine learning(ML)</b></h4>
+                      <p class="card-text">We at SkyGoal Tech are both skilled and enthusiastic about providing tech solutions from conception to completion, assisting in the transformation of creative ideas into long-term and sustainable solutions, all while staying under budget and with a comprehensive grasp of the agility required.</p>
+                      <div class="text-center mb-0">
+                        <img class="images  img-fluid mb-0 mx-0 " src="./assets/img/Frame 2.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </a>
+          
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/cloud-solutions.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card2">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Our best-in-class Cloud Computing Services.</b></h4>
+                      <p class="card-text p-3">With our best-in-class Cloud Computing Services, we assist organizations in transforming their IT environments. Experts from our team offer highly reliable and effective cloud computing services that are designed to boost organizations' competitiveness.</p>
+                      <p class="card-text p-3">With our cloud solutions, businesses can reduce IT resource requirements, improve productivity, reduce costs, as well as accelerate time-to-market</p>
+                      <div class="text-center mb-0">
+                        <img class="images img-fluid" src="./assets/img/Frame 3.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/consultancy-services.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card3">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Support and consulting to grow your business</b></h4>
+                      <p class="card-text p-3">Do you need support and consulting to grow your business? With our cutting-edge strategy, latest and upgraded technologies, and innovative and professional advisors, your business will reach its full potential and to keep your business moving forward.</p>
+                      <div class="text-center mb-0">
+                        <img class="images img-fluid d-flex align-self-end" src="./assets/img/Frame 4.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/Corporate-services.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card4">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Corporate service</b></h4>
+                      <p class="card-text p-3">As a Corporate service provider, we at SkyGoal Tech provide internal as well as external business support services. We have experienced & knowledgeable professionals to assist our clients.</p>
+                      <p class="card-text p-3">Our Corporate Services offer business solutions to other businesses, including Company Incorporation & Registration, Company Secretaryship, Accounting, Taxation, Payroll, Work Permit processing, and more.</p>
+                      <div class="text-center mb-0">
+                          <img class="images img-fluid d-flex align-self-end" src="./assets/img/Frame 5.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/e-commerce.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card5">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Developing eCommerce websites</b></h4>
+                      <p class="card-text p-3">We help our customers by developing eCommerce websites that fit their unique requirements and provide technical consultation and development plans depending on their needs. As a leader in delivering robust and likable e-commerce solutions, SkyGoal Tech provides the enterprises with excellent e-commerce website development and design solutions.</p>
+                      <div class="text-center mb-0">
+                          <img class="images img-fluid d-flex align-self-end" src="./assets/img/Frame 7.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/edu-tech-solutions.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card6">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Edu-Tech Solutions for educational institutions</b></h4>
+                      <p class="card-text p-3">We provide end to end Edu-Tech Solutions for educational institutions from planning, development, implementation, maintenance and upgradation. Our area of expertise is Education Management Systems and we cover all Educational Institutions' needs including Students Enrollment, Examination Schedules, E-Learning, Result Reporting etc.</p>
+                      <div class="text-center mb-0">
+                          <img class="images img-fluid d-flex align-self-end" src="./assets/img/Frame 8.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/app-development.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card7">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Dvelopment of customized mobile applications</b></h4>
+                      <p class="card-text p-3">We create and assist our clients in the development of customized mobile applications for a range of devices and operating platforms.</p>
+                      <p class="card-text p-3">Our team of mobile app developers also has the expertise and knowledge to design astonishingly beautiful and creative mobile apps that use AI and machine learning technology. What else are you waiting for? To receive a quote, please contact us.</p>
+                      <div class="text-center mb-0">
+                          <img class="images img-fluid d-flex align-self-end" src="./assets/img/Frame 9.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <a href="/Graphic.html" class="text-black" style="text-decoration:none">
+                <div class="card h-100" id="card8">
+                    <div class="card-body">
+                      <h4 class="card-title p-3"><b>Graphic Services</b></h4>
+                      <p class="card-text p-3">Text or a photo may not always be sufficient to deliver the message or the idea you want to express. We got your back!!</p>
+                      <p class="card-text p-3">With a team of experienced graphic designers who can translate core ideas and concepts into innovative and stylish designs, graphics, and creatives to give your company or business a fresh and completely unique look.</p>
+                      <div class="text-center mb-0">
+                          <img class="images img-fluid d-flex align-self-end" src="./assets/img/Frame 10.png" class="card-img" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 pb-5">
+            <div class="card h-100" id="card9">
+                <div class="text-center mb-0">
+                    <img class="img-fluid px-5 py-3" src="./assets/img/skygoal-Logo 2.png" class="card-img" alt="..."> 
+                </div>
+              <div class="card-body">
+                <!-- <h4 class="card-title p-3"><b>This are our services</b></h4> -->
+                <!-- <p class="images img-fluid card-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non tellus amet condimentum adipiscing. Nec venenatis pellentesque leo arcu. Egestas enim libero varius vitae sed amet turpis nunc, facilisi. Urna nunc, facilisi aliquam et congue convallis nisl sollicitudin porta. Tempor vivamus aliquam pellentesque semper sagittis turpis tortor lectus consequat. Elementum magnis varius faucibus sit.</p> -->
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row py-5">
+        <div class="col d-flex justify-content-center">
+            <h3><b>Why Choose Skygoaltech</b></h3>
+        </div>
+    </div>
+
+    <div class="container" id="container2">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 my-auto">
+                <p class="px-5 pt-5">Do you have an idea, a project, or a plan that needs to be developed? </p>
+
+                <p class="px-5">The first step is to choose the right company which can help you the best of your idea and will be there for you at every step of the way, both during and after the project's development. We, Skygoal Tech have experienced, skilled and enthusiastic team who is always in touch with the client during the development of project. We treat each project as if it were our own.</p>
+                    
+                <p class="px-5 pb-3">We have the best resources capable of delivering the best solutions to upgrade your company solutions by using the most recent technology.</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 my-auto">
+                <img class="img-fluid py-5" src="./assets/img/Frame3.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="row py-5">
+        <div class="col d-flex justify-content-center">
+            <h3><b>What Differentiate Us?</b></h3>
+        </div>
+    </div>
+
+    <div>
+        <img class="img-fluid" src="./assets/img/Frame 19.png">
+    </div>
+
+    <div class="row pt-5 pb-lg-5 mb-5">
+        <div class="text-center">
+            <h3><b>How We Process?</b></h3>
+        </div>
+    </div>
+    <!-- <div class="row p-3">
+        <div class="col d-flex justify-content-center">
+            <h6><b>Before starting any project, we follow these 6 steps</b></h6>
+        </div>
+    </div> -->
+                    
+    
+
+
+
+    <!-- <div class="container">
+        <div class="row">
+
+            <div class="col" id="col1">
+                <div class="col">
+                    <div class="card border-0" style="width: 18rem;">
+                        <img class="img-fluid" src="./assets/img/Frame-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Understanding the objective</h5>
+                          <p class="card-text">In order to develop fully functional project, we first understand the objectives/requirements of our customers. This is the most important concern we make, before we begin planning and working on the entire development process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="col2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="img-fluid" src="./assets/img/Frame-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Planning</h5>
+                      <p class="card-text">To get started, you must first plan. Half the battle is won if a strategy is devised. We can't predict the project's stability or susceptibility until we have a strategy in place. The project begins with planning, and the quality of that planning impacts the project's progress.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col" id="col1">
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="img-fluid" src="./assets/img/Frame-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Design</h5>
+                      <p class="card-text">Following analysis, designing takes control. It is essentially constructing the project's architectural structure. These procedures guarantee that any faults or defects are eliminated. In addition, standards and requirements might be established in order to adhere to them while building software.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="col2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="img-fluid" src="./assets/img/Frame-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Development & Implementation</h5>
+                      <p class="card-text">In this step project development and implementation process actually starts. And, when the product is being produced, it is subjected to a pilot study to see whether or not it is performing properly.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col" id="col1">
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="img-fluid" src="./assets/img/Designer-pana 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Testing</h5>
+                      <p class="card-text">After the project is developed, it goes through several stages of testing. This determines whether or not the product established is original. Any bugs or malfunctions discovered at this period can be rectified.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="col2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="img-fluid" src="./assets/img/Frame-5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Maintenance</h5>
+                      <p class="card-text">Last but not least, the project needs extensive maintenance both before and after it is delivered to the user. Before delivering the project to the customer/clients, the developer team ensures that it is in good working order and provides after-sales service support and assistance with the product's operation.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div> -->
+
+
+    <div class="">
+        <div class="dotted-bg container">
+            <div class="row pb-lg-5 mb-4 justify-content-around">
+                <div class="col-md-3" id="">
+                    <div class="">
+                        <div class="card border-0">
+                            <div>
+                                <img class="img-fluid" src="./assets/img/Frame-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Understanding the objective</h5>
+                              <p class="card-text">In order to develop fully functional project, we first understand the objectives/requirements of our customers. This is the most important concern we make, before we begin planning and working on the entire development process.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 card-bottom-mg" id="">
+                    <div class="card border-0">
+                        <img class="img-fluid" src="./assets/img/Frame-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Planning</h5>
+                          <p class="card-text">To get started, you must first plan. Half the battle is won if a strategy is devised. We can't predict the project's stability or susceptibility until we have a strategy in place. The project begins with planning, and the quality of that planning impacts the project's progress.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row pb-lg-5 mb-4 justify-content-around">
+    
+                <div class="col-md-3" id="">
+                    <div class="card border-0">
+                        <img class="img-fluid" src="./assets/img/Frame-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Design</h5>
+                          <p class="card-text">Following analysis, designing takes control. It is essentially constructing the project's architectural structure. These procedures guarantee that any faults or defects are eliminated. In addition, standards and requirements might be established in order to adhere to them while building software.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 card-bottom-mg" id="">
+                    <div class="card border-0">
+                        <img class="img-fluid" src="./assets/img/Frame-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Development & Implementation</h5>
+                          <p class="card-text">In this step project development and implementation process actually starts. And, when the product is being produced, it is subjected to a pilot study to see whether or not it is performing properly.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="row pb-lg-5 mb-4 justify-content-around">
+    
+                <div class="col-md-3" id="">
+                    <div class="card border-0">
+                        <img class="img-fluid" src="./assets/img/Designer-pana 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Testing</h5>
+                          <p class="card-text">After the project is developed, it goes through several stages of testing. This determines whether or not the product established is original. Any bugs or malfunctions discovered at this period can be rectified.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3 card-bottom-mg" id="">
+                    <div class="card border-0">
+                        <img class="img-fluid" src="./assets/img/Frame-5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Maintenance</h5>
+                          <p class="card-text">Last but not least, the project needs extensive maintenance both before and after it is delivered to the user. Before delivering the project to the customer/clients, the developer team ensures that it is in good working order and provides after-sales service support and assistance with the product's operation.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- some of our client section start -->
+    <section class="py-3" >
+        <div class="container" id="container2">
+            <div class="row py-3" >
+                <div class="col text-center">
+                    <h3>Some of our clients</h3>
+                </div>
+            </div>
+            
+            <div class="row pt-3" >
+                <div class="col text-center">
+                    <img class="img-fluid" style="height: 10rem; width: 15rem;" src="./assets/img/home clients.png">
+                </div>
+            </div>
+
+            <div class="row pb-4">
+
+                    <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 48 (1).png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 49.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 50.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 51.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 57.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 56.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 58.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Frame 59.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13841.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13842.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13839.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13836.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13835.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13840.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13844.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13846.png" class="img-fluid">
+              </div>
+
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13849.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13850.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13833.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13834.png" class="img-fluid">
+              </div>
+
+              <div class="col-lg-2 col-sm-4 col-md-4">
+                  <img src="./assets/img/Group 13853.png" class="img-fluid">
+              </div>
+                  
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- review section start -->
+    <div class="row pt-5" id="swiper2">
+        <div class="col px-5 pb-4 text-white d-flex justify-content-center">
+            <h4><b>Client Testimonials</b></h4>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper2 swiper px-5 pb-5 card-group">
+            <div class="swiper-wrapper pb-5 ">
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/inspiringindians-test.png" style="width: 12rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I am satisfied, and the manner in which this team carried out their duties increased my sales, and there is currently no difficulty. It was completed exactly according to my instructions, and I am grateful. I will undoubtedly collaborate with them in the future.</p>
+                      <div class="card-footer border-0">
+                        <h6>Saran</h6>
+                        <p>From inspiring indians</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="card h-80">
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/futecttech-test.png" style="width: 8rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I was right to be sceptical about getting a logo and website designed for my startup. I choose Skygoal Tech because they were able to comprehend our needs. They were on schedule with the project delivery and had fantastic communication.</p>
+                      <div class="card-footer border-0">
+                        <h6>Dhanush</h6>
+                        <p>From Future Tech It Global</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="card h-80">
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/phlox energy-test.png" style="width: 8rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I'd seen folks praising their work before and thought I'd give it a shot to give a project . I'm quite happy with the outcome. I wasn't expecting much, maybe some grasp of my industry or some ideas, but they went above and beyond and designed a logo based on my tastes after considering all of the variables I gave at the outset. That was also incorporated into their artistic concept. The team is also incredibly kind and responsive.</p>
+                      <div class="card-footer border-0">
+                        <h6>sirazuddin</h6>
+                        <p>From Pholex Energy </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="card h-80">
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/inspiringindians-test.png" style="width: 12rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I recommend this team of individuals, they are totally awesome and great to work with they just don't take your word for it, they truly observe what is happening and analyze, the moment they see things are not working they make changes</p>
+                      <div class="card-footer border-0">
+                        <h6>------</h6>
+                        <p>From Newishkart</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="card h-80">
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/arrowMonk-test.png" style="width: 12rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I have to say I'm impressed. I have a friend who is a Marketing Agency owner and he recommended you guys. I must say, this has been a great experience so far!</p>
+                      <div class="card-footer border-0">
+                        <h6>-----</h6>
+                        <p>From Arrowmonk</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card h-80" >
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/evergreen-test.png" style="width: 5rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I had contacted a few web developers to make my website, they took my money and did nothing. I then came across this young team, they designed the site on time and within budget.I was happy with my service and i will suggest to take a service from this team.</p>
+                      <div class="card-footer border-0">
+                        <h6>Harshit</h6>
+                        <p>From Evergreeninfra</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card h-80" >
+                    <div class="px-5 py-3 text-center" id="image">
+                        <img src="./assets/img/leteducate-logo-test.png" style="width: 15rem;height: 5rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text px-3">I have dealt with few web designer but skygoaltech has the best team to provide service and they are very helpful i love this team because they are not only developers but they can suggest you what is the right thing to do for your business.</p>
+                      <div class="card-footer border-0">
+                        <h6>Teja </h6>
+                        <p>From Leteducate</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+
+        </div>
+
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Add Scrollbar
+            <div class="swiper-scrollbar"></div> -->
+
+        </div>
+    </div>
+    <!-- review section start -->
+
+
+    <section>
+
+        <div class="row py-5">
+            <div class="col d-flex justify-content-center">
+                <h3><b>Associated With</b></h3>
+            </div>
+            <div class="row px-5">
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-2 col-md-4 col-sm-4" id="home-col1">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 197.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 196.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4" id="home-col2">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 195.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 194.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4" id="home-col3">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 198.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 199.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4" id="home-col4">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 200.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 201.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4" id="home-col5">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="./assets/img/Frame 202.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    
+
+
+  <!-- enter your email section  -->
+  <section class="container mb-5">
+    <div class="join">
+     <div>
+         <h2 class="fw-bold text-center">Join Skygoal today!</h2>
+     </div>
+     <div class="my-5 px-3">
+         <h5 class="fw-bold text-center">Sign up to receive updates from <br> us, and be the first to  know about sales,
+             promotions and more.</h5>
+     </div>
+         <div class="mx-4 px-lg-5">
+             <div class="input-group mb-3 mx-auto">
+                 <input style="border-top-left-radius: 20px; border-bottom-left-radius: 20px;" type="text" class="form-control px-lg-4" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                 <div class="emailButton" style="padding: 0px;">
+                     <button style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; font-size: 16px button2; background-color: #D94B62; color: white;" class="btn btn fw-bold py-3 px-lg-5" type="button" id="button-addon2">Submit</button>
+                 </div>
+             </div>
+         </div>
+    </div>
+</section>
+
+   <!-- footer  -->
+   <div id="footer"></div>
+
+
+    </section>
+    
+
+    <script src="jquery.min.js"></script>    
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+
+<!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGI0VigNr266KTmWHW687CIBHNkaklEwMEA-nPPAnkjyKlv6P3s-SNCFOxN_txrCaJ/exec'
+    const form = document.forms['callBack']
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => location.reload())
+            .catch(error => console.error('Error!', error.message))
+    })
+   </script> -->
+
+
+
+    
+
+</body>
+</html>
