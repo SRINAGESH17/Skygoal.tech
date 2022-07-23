@@ -1,0 +1,163 @@
+
+
+#img-card {
+    background-color: white;
+    box-shadow: -8px -8px 16px rgba(0, 0, 0, 0.1), 8px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#img-card:hover {
+    background-color: white;  
+}
+
+
+#img-card img {
+    background-color: white;
+    border-radius: 20px;
+}
+
+#img-card img:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+
+#card1 #card-body {
+    background-color: #FF5F2D;
+    border-radius: 20px;
+    height: 400px;
+}
+
+
+@media screen and (min-width: 200px) {
+    #card1 #card-body {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #card1 #card-body {
+        height: 400px;
+    }
+}
+
+#card1:hover {
+    background-color: #FF5F2D;
+    border-radius: 20px;
+}
+
+#card2 #card-body {
+    background-color: #FF36A2;
+    border-radius: 20px;
+    height: 400px;
+}
+@media screen and (min-width: 200px) {
+    #card2 #card-body {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #card2 #card-body {
+        height: 400px;
+    }
+}
+
+#card2:hover {
+    background-color: #FF36A2;
+    border-radius: 20px;
+}
+
+#card3 #card-body {
+    background-color: #3DB475;
+    border-radius: 20px;
+    height: 400px;
+}
+
+#card3:hover {
+    background-color: #3DB475;
+    border-radius: 20px;
+}
+@media screen and (min-width: 200px) {
+    #card3 #card-body {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #card3 #card-body {
+        height: 400px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 200px) {
+    #card4 #card-body {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #card4 #card-body {
+        height: 400px;
+    }
+}
+
+#card4:hover {
+    background-color: #2A1E84;
+    border-radius: 20px;
+}
+
+#card4 #card-body {
+    background-color: #2A1E84;
+    border-radius: 20px;
+    height: 400px;
+}
+
+#card5 #card-body {
+    background-color:  #07629D;
+    border-radius: 20px;
+    height: 400px;
+}
+#card5:hover {
+    background-color:  #07629D;
+    border-radius: 20px;
+}
+
+
+@media screen and (min-width: 200px) {
+    #card5 #card-body {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #card5 #card-body {
+        height: 400px;
+    }
+}
+
+
+
+
+
+/* #input1 {
+    width: 5rem;
+    height: 2.5rem;
+    padding-left: 0%;
+    border-radius: 40px;
+    border: none;
+    padding: 1.5rem;
+} */
+
+/* #button1 {
+    background-color: #D94B62;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 40px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+} */
+/* 
+#input1 ::placeholder {
+    color: black;
+    font-weight: 500;
+} */
+
+

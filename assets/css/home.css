@@ -1,0 +1,263 @@
+#text1 {
+    color:  #292742;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#container1 {
+    background-color:  #EEFCFE;
+    border-radius: 2px;
+}
+#row1 {
+    background-color: white;;
+}
+
+#services .card:hover {
+    transform: scale(1.1);
+}
+.card {
+    border-radius: 13.5015px;
+}
+
+#card1 {
+    background-color:  #EAEEF6;
+}
+#card2 {
+    background-color:   #9460FC;
+    color: white;
+}
+#card3 {
+    background-color:   #00327A;
+    color: white;
+}
+#card4 {
+    background-color: #FAF0F1;
+}
+#card5 {
+    background-color: #3BC3EE;
+    color: white;
+}
+#card6 {
+    background-color:  #9460FC;
+    color: white;
+}
+#card7 {
+    background-color: #1372F1;
+    color: white;
+}
+#card8 {
+    background-color: #EAEEF6;
+}
+#card9{
+    box-shadow:  -8px -8px 16px rgba(0, 0, 0, 0.1), 8px 8px 16px rgba(0, 0, 0, 0.1);;
+}
+
+
+
+#card1 p {
+    padding-bottom: 10rem;
+}
+
+
+
+
+#container2 {
+    background-color:   rgba(217, 75, 98, 0.14);;
+    border-radius: 20px;
+}
+
+.card img {
+    border-radius: 27.0029px 27.0029px 0px 0px;
+}
+
+#col1 {
+    padding-right: 8rem;
+    padding-left: 7rem;
+}
+
+#col2 {
+    padding-left: 8rem;
+    padding-top: 15rem;
+}
+
+#container3 {
+    background-color:  #2A2742;
+    color: white;
+    border-radius: 40px;
+}
+
+#conatiner3 .button {
+    background-color:  #D94B62;
+    color: #D94B62;
+    
+}
+
+#conatiner3 input {
+    border-radius: 40px;
+}
+
+#conatiner4 .card {
+    border-radius: 30px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    
+}
+
+#container4 .card {
+    background-color: #EAEEF6;
+    border-bottom: 10px solid #D94B62;
+    border-radius: 6.5px;
+}
+
+#input1 {
+    width: 5rem;
+    height: 2.5rem;
+    padding-left: 0%;
+    border-radius: 40px;
+    border: none;
+    padding: 1.5rem;
+}
+
+#button1 {
+    background-color: #D94B62;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 40px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#input1 ::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+    #col2 {
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+        padding-left: 15rem;
+    }
+    
+    #col1 {
+        padding-left: 15rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width:767px) {
+    #col2 {
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+        padding-left: 7rem;
+    }
+    
+    #col1 {
+        padding-left: 7rem;
+        padding-bottom: 5rem;
+    }
+
+    #testimonials{
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+}
+
+
+
+div#testimonials{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#testimonials .card {
+    background-color: #EAEEF6;
+    border-bottom: 10px solid #D94B62;
+    border-radius: 6.5px;
+}
+
+#testimonals .card {
+    border-radius: 30px;
+    padding-left: 5rem;
+}
+
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    margin-top: 40px;
+    background: #D94B62!important;
+}
+
+.owl-theme .owl-nav {
+    display: none;
+}
+
+
+#home-col1 {
+    padding-top: 4rem;
+}
+#home-col3 {
+    padding-top: 4rem;
+}
+
+#home-col5 {
+    padding-top: 6rem;
+}
+
+@media screen and (min-width: 600px) {
+    .dotted-bg {
+        background: url('../img/dotted-line.png') no-repeat;
+        background-size: 100% 90%;
+    }
+    .card-bottom-mg {
+        padding-top: 320px;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .card-bottom-mg {
+        padding-top: 50px;
+    }
+}
+
+#swiper2 {
+    background-color: #418DDC;
+
+}
+
+#swiper2 .card-footer {
+    background-color: white;
+}
+
+#swiper2 .card {
+    border-radius: 10px;
+    height: 32rem;
+    width: 25rem;
+}
+
+#swiper2 .card p{
+    color: #878787;
+}
+
+#swiper2 #card1 p {
+    color: white;
+}
+
+#swiper2 .card #image {
+    border-bottom: 1.5rem solid #F4F4F4;
+}
+
+#swiper2 .card:hover {
+    transform: scale(1.05);
+}

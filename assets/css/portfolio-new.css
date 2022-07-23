@@ -1,0 +1,85 @@
+#hero {
+    background: linear-gradient(118.86deg, rgba(0, 0, 0, 0.12) 53.78%, rgba(0, 0, 0, 0.12) 69.06%), linear-gradient(270.08deg, #FF928E 0.08%, #53A7F1 83.14%);
+    border-radius: 40px;
+}
+
+#hero .logo {
+    border-left: 6px solid #FFFFFF;;
+}
+
+#container2 {
+    background-color: rgba(105, 192, 253, 0.13);
+}
+
+#section3a #carda {
+    border-radius: 18.4725px;
+    background-color:  #FF36A2;
+}
+
+#section3a #cardb {
+    border-radius: 18.4725px;
+    background-color:  #FF602D;;
+}
+
+#section3a #cardc {
+    border-radius: 18.4725px;
+    background-color:  #07629D;
+}
+
+#section3a  #carda img{
+    margin-top: -5rem;
+    width: 12rem;
+    /* height: 11rem; */
+}
+
+#section3a  #cardb img{
+    margin-top: -3rem;
+    width: 12rem;
+    /* height: 11rem; */
+}
+
+#section3a #cardc img{
+    margin-top: -7rem;
+    width: 12rem;
+    /* height: 11rem; */
+}
+
+
+
+#section3a .card .card-title .letter{
+    font-size: 6rem;
+}
+
+#section3a .card .card-body p {
+    font-size: smaller;
+}
+
+#section4b {
+    background-color: #ECF7FF;
+}
+
+#section4b #container4b .card {
+    background-color: #ECF7FF;
+}
+
+#section4b #container4b .btn {
+    background-color: #2A2742;;
+}
+
+.swiper {
+    width: 600px;
+    height: 250px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background:  rgba(105, 192, 253, 0.13); */
+}
+
+
+/* #section4b #box1 {
+    box-shadow: -8px -8px 32px rgba(179, 179, 253, 0.2), 8px 8px 32px rgba(179, 179, 253, 0.2);
+} */
+
+

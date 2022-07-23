@@ -1,0 +1,167 @@
+.pink{
+    background: #D94C63;
+}
+
+.purple{
+    background: #2A2742;
+}
+
+.peach{
+    background: #ECF7FF;
+}
+
+.yellow{
+    background: #FF36A2!important;
+}
+
+.dark-green{
+    background: #FF602D!important;
+}
+
+.light-green{
+    background: #07629D!important;
+}
+
+#work img {
+    background-color: white;
+}
+.extra-bold{
+    font-size: 70px;
+    line-height: 70px;
+    text-align: left;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 2px white;
+    color: #2A2742;
+}
+
+#title{
+    color: white;
+}
+
+img.left-margin{
+    margin-left: -30%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.purple.col-lg-5.col-md-5 {
+    padding-right: 4%;
+}
+
+.left-margin h3{
+    margin-left: -10%;
+    margin-top: 4%;
+    Font-size: 32px;
+    Line-height: 40px;
+    font-weight: 700;
+}
+
+.left-margin p{
+    margin-left: -9%;
+    margin-top: 4%;
+    Font-size: 20px;
+    Line-height: 29px;
+    font-weight: 300;
+}
+
+#process{
+    color: white;
+}
+
+#process span {
+    font-size: 60px;
+}
+
+h5.card-title {
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+.card{
+    width: 18rem;
+    border-radius: 5%!important;
+}
+
+.card-text{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+#process .card-img-top {
+    width: 45%!important;
+    position: absolute;
+}
+
+#process .card-img {
+    position: absolute;
+    height: 0;
+    padding-bottom: 35%;
+    display: flex;
+    text-align: center;
+    top: -12%;
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+}
+
+.btn-purple {
+    color: #fff!important;
+    background-color: #2A2742!important;
+    border-color: #2A2742!important;
+}
+
+#work img{
+    width: 90%;
+}
+
+#work span{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+#work h3{
+    font-weight: 800;
+}
+
+#clients .peach{
+    height: 400px;
+}
+
+#clients h2{
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+#process h2{
+    color: black;
+    padding-bottom: 70px;
+    font-weight: 700;
+}
+
+#process{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+#work h3{
+    padding-bottom: 70px;
+}
+
+#work .peach{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+h5.img-caption{
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+#work .container{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,150 @@
+#con4 .row2 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#con4 {
+    background-color: #48C193;
+    color: white;
+}
+#choose{
+    border-radius: 30px;
+}
+
+#text11{
+    color: gray;
+    
+}
+
+#con3 .card {
+    background-color: #3585D8;
+    border: none;
+}
+
+#image3 {
+    padding-left: 2.1rem;
+}
+
+#preview {
+    background-color: #263238;
+    border-radius: 30px;
+    font-size: small;
+}
+
+#price-img {
+    margin-right: -10rem;
+}
+#one {
+    background-color:  #EB615B;
+}
+#mobile {
+    padding-top: 10rem;
+    margin-left: -7rem;
+    width: 728px;
+    height: 755.73px;
+}
+
+#con2 .card:hover {
+    transform: scale(1.1);
+}
+
+#three a {
+    background-color:  #FF725E;
+    color: white;
+    border: 25px;
+}
+
+#three .card-title {
+    background-color: #FF725E;
+}
+#open {
+    color: #663399;
+    background-color: white;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+#content{
+    padding-left: 5rem;
+}
+#content h1 {
+    color: white;
+    font-size: xxx-large;
+}
+
+#content1{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#four {
+    background-color: #A384FC;
+}
+
+#con2 .card {
+    box-shadow: -8px -8px 16px rgba(0, 0, 0, 0.08), 8px 8px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+}
+
+#con2 .card #image1 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#con2 .card #image2 {
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+#con2 .card .card-body {
+    padding-left: 2rem;
+}
+
+#con3 .one {
+    background-color: #3585D8;
+}
+
+#con3 .two {
+    background-color: #EEEEEE;
+}
+
+#con3 .two img {
+   
+}
+
+#con2 .card {
+    width: 22rem;
+}
+
+#con5 h1{
+    color: #E7E7E7;
+    font-size: 180px;
+    font-weight: 700;
+}
+
+#col1 {
+    padding-top: 25rem;
+}
+
+@media (max-width: 1130px) and (min-width:992px) {
+    #con2 .card {
+        width: 18rem;
+    }
+}
+@media (max-width: 768px) {
+    #col1 {
+        padding-top: 2rem;
+    }
+    #col3 {
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 992px) {
+    #col1 {
+        padding-top: 2rem;
+    }
+    #col3 {
+        padding-left: 15rem;
+    }
+}

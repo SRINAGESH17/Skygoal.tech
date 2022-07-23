@@ -1,0 +1,34 @@
+#swiper2 {
+    background-color: #418DDC;
+
+}
+
+#swiper2 .card-footer {
+    background-color: white;
+}
+
+#swiper2 .card {
+    border-radius: 10px;
+    height: 32rem;
+    width: 25rem;
+}
+
+#swiper2 .card p{
+    color: #878787;
+}
+
+#swiper2 #card1 p {
+    color: white;
+}
+
+#swiper2 .card #image {
+    border-bottom: 1.5rem solid #F4F4F4;
+}
+
+#swiper2 .card:hover {
+    transform: scale(1.05);
+}
+#container2 {
+    background-color:   rgba(217, 75, 98, 0.14);;
+    border-radius: 20px;
+}
