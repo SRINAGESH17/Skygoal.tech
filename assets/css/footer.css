@@ -58,3 +58,41 @@
     } 
 }
 
+
+#social{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  #social span{
+    color: #0E3C6E;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -15px;
+   /* border-bottom: 5px solid #0077B5;
+      border-radius: 2px;
+      padding: 0 0 1px; */
+  
+  }
+
+  #social hr{
+    color: #0077B5;
+    border-top: 5px solid;
+    height: 18px;
+    margin-top: -10px;
+    width: 65%;
+    margin-left: 47px;
+    margin-bottom: 12px;
+  }
+
+  img.so {
+    margin-top: 0rem;
+    background: transparent;
+    padding: 0px;
+    height: 100px;
+    width: auto;
+    border-radius: 0px;
+    margin-bottom: 1px;
+  }
