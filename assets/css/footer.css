@@ -1,9 +1,6 @@
 .footer-link {
     text-decoration: none;
-    color: white;
-}
-.footer-link:hover {
-    color: white;
+    color: black;
 }
 
 @media screen and (min-width: 200px) {
@@ -11,73 +8,39 @@
         padding-top: 20px;
     }
 }
+
 @media screen and (min-width: 200px) and (max-width: 600px) {
     .marginX {
         margin-left: 20px;
     }
 }
+
 @media screen and (min-width: 600px) {
     .marginTop {
         padding-top: 160px;
     }
 }
 
-.schape1 {
-    background-color: #2A2742;
-}
 .schape2 {
-    background: #D94B62;
-
+    background: url("../img/footerBgImg.svg");
+    overflow: hidden !important;
 }
 
-@media screen and (min-width: 200px){
-    .schape1 {
-        clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 100%);
-    
-    } 
-}
-
-@media screen and (min-width: 600px) {
-    .schape1 {
-        clip-path: polygon(0 0, 100% 30.7%, 100% 100%, 0% 100%);
-    
-    } 
-}
-
-@media screen and (min-width: 200px){
-    .schape2 {
-        clip-path: polygon(45.4% 4.1%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0 31%, 0 0);    
-    } 
-}
-
-@media screen and (min-width: 600px) {
-    .schape2 {
-        -webkit-clip-path: polygon(67% 20%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0 27%, 0 0);
-        clip-path: polygon(65% 20%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0 27%, 0 0);
-    
-    } 
-}
-
-
-#social{
+#social {
     background-color: white;
     padding-top: 25px;
     padding-bottom: 20px;
     margin-top: 40px;
-  }
-  
-  #social span{
+}
+
+#social span {
     color: #0E3C6E;
     font-size: 20px;
     font-weight: 600;
     margin-left: -15px;
-   /* border-bottom: 5px solid #0077B5;
-      border-radius: 2px;
-      padding: 0 0 1px; */
-  
-  }
+}
 
-  #social hr{
+#social hr {
     color: #0077B5;
     border-top: 5px solid;
     height: 18px;
@@ -85,9 +48,9 @@
     width: 65%;
     margin-left: 47px;
     margin-bottom: 12px;
-  }
+}
 
-  img.so {
+img.so {
     margin-top: 0rem;
     background: transparent;
     padding: 0px;
@@ -95,4 +58,13 @@
     width: auto;
     border-radius: 0px;
     margin-bottom: 1px;
-  }
+}
+
+.socialMediaImg {
+    width: 35px;
+}
+
+.skyGoalLogo {
+    width: 100px;
+    object-fit: cover;
+}

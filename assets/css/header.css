@@ -1,57 +1,66 @@
 .dropdown-hover:hover>.dropdown-menu {
     display: inline-block;
-    }
-    
-    .dropdown-hover>.dropdown-toggle:active {
+}
+
+.dropdown-hover>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+}
+
+@media screen and (min-width: 600px) {
+    .dropdownCenter {
+        /* right: auto;
+        left: 44%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0); */
     }
-    
-    @media screen and (min-width: 600px) {
-        .dropdownCenter {
-            right: auto;
-            left: 44%;
-            -webkit-transform: translate(-50%, 0);
-            -o-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-        }
+}
+
+@media screen and (min-width: 600px) {
+    .dropdownForContact {
+        right: 0px;
+        /* -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0); */
     }
-  
+}
+
+#img-col {
+    background-color: #2A2742;
+}
+
+#submit {
+    background-color: #2A2742;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #2A2742;
+    color: white;
+}
+
+#dropdown #p1 {
+    font-size: x-small;
+    color: gray;
+}
+
+/* #dropdown li:hover .texth {
+    border-bottom: 3px solid black;
+
+} */
+#under-line {
+    font-size: large;
+}
 
 
+#under-line :hover {
+    /* border-bottom: 1px solid black; */
+    text-decoration: underline;
+}
 
-
-    #img-col {
-        background-color: #2A2742;
-    }
-
-    #submit {
-        background-color: #2A2742;
-        color: white;
-    }
-
-    #submit:hover {
-        background-color: #2A2742;
-        color: white;
-    }
-
-    #dropdown #p1 {
-        font-size: x-small;
-        color: gray;
-    }
-
-    #dropdown li:hover .texth{
-        border-bottom: 3px solid black;
-        
-    }
-
-
-
-    #under-line :hover {
-        /* border-bottom: 1px solid black; */
-        text-decoration: underline;
-    }
-
-    
-   
-  
+.texth {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}

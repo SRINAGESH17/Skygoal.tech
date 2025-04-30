@@ -1,0 +1,16 @@
+.breadCrumbMainContainer {
+    padding: 30px 0px 0px 40px;
+    display: flex;
+    gap: 5px;
+    align-content: center;
+}
+
+.under-line-breadCrumb {
+    text-decoration: none;
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.under-line-breadCrumb:hover {
+    color: #0d6efd;
+}

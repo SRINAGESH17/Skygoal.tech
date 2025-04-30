@@ -1,0 +1,87 @@
+.businessParentContainer {
+    padding: 20px 100px 0px 100px;
+}
+
+@media screen and (max-width:1024px) {
+    .businessParentContainer {
+        padding: 20px 30px 0px 30px;
+    }
+}
+
+.businessHeading {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.businessAddressFormContainer {
+    width: 100%;
+    display: flex;
+    align-content: start;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .businessAddressFormContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.addressContainer {
+    width: 80%;
+    background: #5e5b7a;
+    border-radius: 10px;
+    padding: 40px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.formContainer {
+    margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .addressContainer {
+        order: 2 !important;
+        width: 100%;
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .formContainer {
+        order: 1 !important;
+    }
+}
+
+.enquiryInputField {
+    border: 1px solid black;
+}
+
+.enquiryBtnParentContainer {
+    display: flex;
+    align-content: end;
+    justify-content: end;
+}
+
+.enquiryBtn {
+    margin-top: 5rem;
+    font-size: large;
+}
+
+@media screen and (max-width: 1024px) {
+    .enquiryBtn {
+        margin-top: 0rem;
+        width: 100%;
+    }
+}
+
+.enquiryBtn:hover {
+    background: #5e5b7a;
+    color: white;
+}
