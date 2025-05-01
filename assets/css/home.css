@@ -263,30 +263,30 @@ div#testimonials {
     color: white;
 }
 
-#home-col1 {
+.scroll-container {
     width: 100%;
+    overflow: hidden;
+    padding: 40px 0px 20px 0px;
+}
+
+.scroll-content {
     display: flex;
-    align-content: center;
-    overflow-x: hidden;
-    white-space: nowrap;
+    width: max-content;
+    animation: scroll-left 20s linear infinite;
+    gap: 30px;
 }
 
-.scrollable-imgs {
-    /* display: inline-block; */
-    animation: scroll 20s linear infinite;
+.scroll-content img {
+    width: 150px;
+    height: 70px;
 }
 
-.associated-imgs {
-    width: 250px;
-    height: 150px;
-}
-
-@keyframes scroll {
+@keyframes scroll-left {
     from {
-        transform: translateX(0);
+        transform: translateX(20%);
     }
 
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
