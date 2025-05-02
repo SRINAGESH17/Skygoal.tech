@@ -1,0 +1,15 @@
+.eduTechNavs:hover {
+    color: black;
+}
+
+
+.eduTechNavs {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.eduTechNavs.active-btn {
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to left, #D94B62, #2A2742);
+}

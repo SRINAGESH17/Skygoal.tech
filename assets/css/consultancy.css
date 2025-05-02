@@ -1,5 +1,3 @@
-
-
 #img-card {
     background-color: white;
     box-shadow: -8px -8px 16px rgba(0, 0, 0, 0.1), 8px 8px 16px rgba(0, 0, 0, 0.1);
@@ -7,7 +5,7 @@
 }
 
 #img-card:hover {
-    background-color: white;  
+    background-color: white;
 }
 
 
@@ -16,7 +14,7 @@
     border-radius: 20px;
 }
 
-#img-card img:hover{
+#img-card img:hover {
     background-color: white;
     border-radius: 20px;
 }
@@ -33,6 +31,7 @@
         height: 400px;
     }
 }
+
 @media screen and (min-width: 600px) {
     #card1 #card-body {
         height: 400px;
@@ -49,11 +48,13 @@
     border-radius: 20px;
     height: 400px;
 }
+
 @media screen and (min-width: 200px) {
     #card2 #card-body {
         height: 400px;
     }
 }
+
 @media screen and (min-width: 600px) {
     #card2 #card-body {
         height: 400px;
@@ -75,11 +76,13 @@
     background-color: #3DB475;
     border-radius: 20px;
 }
+
 @media screen and (min-width: 200px) {
     #card3 #card-body {
         height: 400px;
     }
 }
+
 @media screen and (min-width: 600px) {
     #card3 #card-body {
         height: 400px;
@@ -94,6 +97,7 @@
         height: 400px;
     }
 }
+
 @media screen and (min-width: 600px) {
     #card4 #card-body {
         height: 400px;
@@ -112,12 +116,13 @@
 }
 
 #card5 #card-body {
-    background-color:  #07629D;
+    background-color: #07629D;
     border-radius: 20px;
     height: 400px;
 }
+
 #card5:hover {
-    background-color:  #07629D;
+    background-color: #07629D;
     border-radius: 20px;
 }
 
@@ -127,37 +132,70 @@
         height: 400px;
     }
 }
+
 @media screen and (min-width: 600px) {
     #card5 #card-body {
         height: 400px;
     }
 }
 
+.consultancyBannerContainer {
+    background: url("../img/consultancyServices-img.svg");
+    min-width: 100%;
+    height: 60vh;
+    position: relative;
+}
 
+.bannerContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
 
+.overlayContent-Container {
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    margin: 0px 100px 0px 80px;
+    top: 89.5%;
+    height: 100px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
 
+.overlayContent-Options {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFEFEF;
+    margin: 30px;
+    height: 40px;
+}
 
-/* #input1 {
-    width: 5rem;
-    height: 2.5rem;
-    padding-left: 0%;
-    border-radius: 40px;
-    border: none;
-    padding: 1.5rem;
-} */
-
-/* #button1 {
-    background-color: #D94B62;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 40px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-} */
-/* 
-#input1 ::placeholder {
+.consultancy-subNavs:hover {
     color: black;
-    font-weight: 500;
-} */
+}
 
 
+.consultancy-subNavs {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.consultancy-subNavs.active-btn {
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to left, #D94B62, #2A2742);
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+}
+
+.tab-content.active {
+    display: block;
+}

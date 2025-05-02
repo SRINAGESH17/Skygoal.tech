@@ -1,0 +1,15 @@
+.cloud-SubNavs:hover {
+    color: black;
+}
+
+
+.cloud-SubNavs {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cloud-SubNavs.active-btn {
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to left, #D94B62, #2A2742);
+}

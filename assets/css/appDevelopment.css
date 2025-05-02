@@ -1,0 +1,15 @@
+.appDevNavs:hover {
+    color: black;
+}
+
+
+.appDevNavs {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.appDevNavs.active-btn {
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to left, #D94B62, #2A2742);
+}

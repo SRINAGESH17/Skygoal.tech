@@ -57,465 +57,98 @@
         });
     </script>
 
-    <link rel="stylesheet" href="./assets/css/ourclients.css">
+    <script>
+        function consultancySubNavFun(tabId, buttonEl) {
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.classList.remove('active'));
 
+            let selected;
+
+            switch (tabId) {
+                case 'cloud':
+                    selected = document.getElementById('tab1');
+                    break;
+                case 'digitalMarketing':
+                    selected = document.getElementById('tab2');
+                    break;
+                case 'digitalIdentity':
+                    selected = document.getElementById('tab3');
+                    break;
+                case 'ermAndCrm':
+                    selected = document.getElementById('tab4');
+                    break;
+                case 'paymentGateway':
+                    selected = document.getElementById('tab5');
+            }
+
+            if (selected) {
+                selected.classList.add('active');
+            }
+
+            // Highlight active button
+            const buttons = document.querySelectorAll('.consultancy-subNavs');
+            buttons.forEach(btn => btn.classList.remove('active-btn'));
+
+            if (buttonEl) {
+                buttonEl.classList.add('active-btn');
+            }
+        }
+
+        window.onload = () => {
+            consultancySubNavFun('cloud', document.querySelector('[data-tab="tab1"]'));
+        };
+    </script>
+
+    <link rel="stylesheet" href="./assets/css/ourclients.css">
 
 </head>
 
 <body>
     <!-- navbar  -->
     <div id="header"></div>
-    <div class="breadCrumbMainContainer">
-        <a class="under-line-breadCrumb" href="/home.html">
-            <img alt="home-img" src="./assets/img/home-img.png" style="width: 20px; height: 20px;" />
-            <span>Home</span>
-        </a>
-        <span style="color: darkgray">/</span>
-        <p>Best Consultancy Services</p>
+
+    <div class="consultancyBannerContainer">
+        <div class="bannerContent">
+            <div style="display: flex; justify-content: center;">
+                <img src="./assets/img/consultancy-hand-img.svg" width="130px" height="90px" alt="hand-img" />
+            </div>
+            <h2 style="color: white; text-align: center; font-weight: 600;">Consultancy Services</h2>
+            <div>
+                <p class="text-white text-center">Do you need support and consulting to grow your business? With our
+                    cutting-edge strategy, latest and
+                </p>
+                <p class="text-white text-center">upgraded technologies, and innovative and professional advisors, your
+                    business will reach its full
+                    potential</p>
+                <p class="text-white text-center">and to keep your business moving forward.</p>
+            </div>
+        </div>
+        <div class="overlayContent-Container">
+            <div class="overlayContent-Options">
+                <button class="consultancy-subNavs" data-tab="tab1" style="border: none"
+                    onclick="consultancySubNavFun('cloud',this)">
+                    Cloud</button>
+                <button class="consultancy-subNavs" data-tab="tab2" style="border: none;"
+                    onclick="consultancySubNavFun('digitalMarketing', this)">Digital Marketing</button>
+                <button class="consultancy-subNavs" data-tab="tab3" style="border: none;"
+                    onclick="consultancySubNavFun('digitalIdentity', this)">Digital Identity</button>
+                <button class="consultancy-subNavs" data-tab="tab4" style="border: none;"
+                    onclick="consultancySubNavFun('ermAndCrm', this)">ERP & CRM</button>
+                <button class="consultancy-subNavs" data-tab="tab5" style="border: none;"
+                    onclick="consultancySubNavFun('paymentGateway', this)">Payment Gateway</button>
+            </div>
+
+            <div id="tab1" class="tab-content">Tab 1.</div>
+            <div id="tab2" class="tab-content">Tab 2.</div>
+            <div id="tab3" class="tab-content">Tab 3.</div>
+            <div id="tab4" class="tab-content">Tab 4.</div>
+            <div id="tab5" class="tab-content">Tab 5.</div>
+
+        </div>
     </div>
 
-    <!-- banner  -->
-    <section class="container" style="overflow-x: hidden;">
-        <div class="row pb-4">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <img class="img-fluid" src="./assets/img/frame10.png">
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-12 my-auto px-lg-5 pt-5">
-                <h2 class="pb-3"><b>Consultancy Services</b></h2>
-                <p>Do you need support and consulting to grow your business? With our cutting-edge strategy, latest and
-                    upgraded technologies, and innovative and professional advisors, your business will reach its full
-                    potential and to keep your business moving forward.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- card  services  -->
-    <!-- <section style="overflow-x: hidden; margin-bottom: 100px;">
-        <h2 class="fw-bold pt-5 mt-lg-5 pb-lg-5 ps-lg-5 ms-3">Consultancy Services</h2>
-        <div class="container py-5" style="color: white">
-
-            <div class="row gy-5">
-
-                <div class="col-md-12 col-sm-12 card border border-0" style="border-radius: 20px;" id="card1">
-                    <div class="row g-0 mx-auto">
-                        <div class="col-md-8 mx-auto d-flex align-items-center" id="card-body">
-                            <div class="card-body px-lg-5">
-                                <h4 class="card-title pt-2 pb-3 fw-bold">Cloud</h4>
-                                <p class="card-text pb-3">Clients can count on us to guide them in the right direction when it comes to cloud migration, cloud adoption, and to ensure complete control of their cloud and data centre resources so that they can ensure the security, automation, and scaling of their cloud environment. We're experts at building cloud solutions. We leverage AWS, Azure, and Google Cloud platforms, and we build mville with Java, Spring boot, Lift etc</p>
-            
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-5 py-4 d-flex align-items-center">
-                            <div class="card border-0 py-5" id="img-card">
-                                <img class="img-fluid" src="./assets/img/consulting -1.png" class="img-fluid rounded-start" alt=".">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-12 col-sm-12 card border border-0" style="border-radius: 20px;" id="card2">
-                    <div class="row g-0 mx-auto">
-                        <div class="col-md-8 mx-auto d-flex align-items-center" id="card-body">
-                            <div class="card-body px-lg-5">
-                                <h4 class="card-title pt-2 pb-3 fw-bold">Digital Marketing</h4>
-                                <p class="card-text pb-3">As digital marketing is becoming more and more critical to your business' success, we have developed a team of experts to offer a one-stop solution for all your promotional & marketing requirements. Our Digital Marketing team will help you plan and develop a strategy, measure the results and manage the process. With our comprehensive digital marketing service, we work together to define your goals, identify your market, build your brand, generate demand, lead generation and sales conversion.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-5 py-4 d-flex align-items-center">
-                             <div class="card border-0 py-2" id="img-card">
-                                <img class="img-fluid" src="./assets/img/consulting -2.png" class="img-fluid rounded-start" alt=".">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-sm-12 card border border-0" style="border-radius: 20px;" id="card3">
-                    <div class="row g-0 mx-auto">
-                        <div class="col-md-8 mx-auto d-flex align-items-center" id="card-body">
-                            <div class="card-body px-lg-5">
-                                <h4 class="card-title pt-2 pb-3 fw-bold">Digital Identity</h4>
-                                <p class="card-text pb-3">By combining the best in social media and analytics, we provide our brands the ability to reach consumers on top social media platforms. Our unique approach to digital identity allows our brands to engage with the right target audience while monitoring their effort 24/7 from our in-house 'war room'.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-5 py-4 d-flex align-items-center">
-                            <div class="card border-0 py-3" id="img-card">
-                                <img class="img-fluid" src="./assets/img/consulting-3.png" class="img-fluid rounded-start" alt=".">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-sm-12 card border border-0" style="border-radius: 20px;" id="card4">
-                    <div class="row g-0 mx-auto">
-                        <div class="col-md-8 mx-auto d-flex align-items-center" id="card-body">
-                            <div class="card-body px-lg-5">
-                                <h4 class="card-title pt-2 pb-3 fw-bold">ERP & CRM</h4>
-                                <p class="card-text pb-3">
-                                In order to manage your business processes, you may want to utilize ERP and CRM systems. Let us help you identify the most appropriate solution for your company and support in the growth of your organization.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-5 py-4  d-flex align-items-center">
-                            <div class="card border-0" id="img-card">
-                                <img class="img-fluid my-auto" src="./assets/img/consulting -4.png" class="img-fluid rounded-start" alt=".">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-sm-12 card border border-0" style="border-radius: 20px;" id="card5">
-                    <div class="row g-0 mx-auto">
-                        <div class="col-md-8 mx-auto d-flex align-items-center" id="card-body">
-                            <div class="card-body px-lg-5">
-                                <h4 class="card-title pt-2 pb-3 fw-bold">Payment Gateway</h4>
-                                <p class="card-text pb-3">Make the process of setting up your online store easier with us. Our partners are among the leader payment gateway providers in the world. As a result, you can focus on creating remarkable products that delight your customers instead of worrying about your payment solutions.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-5 py-4 d-flex align-items-center">
-                            <div class="card border-0" id="img-card">
-                                <img class="img-fluid" src="./assets/img/consulting -5.png" class="img-fluid rounded-start" alt=".">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section> -->
-
-    <!-- some of our client section start -->
-    <section class="py-3">
-        <div class="container" id="container2">
-            <div class="row py-3">
-                <div class="col text-center">
-                    <h3>Some of our clients</h3>
-                </div>
-            </div>
-
-            <div class="row pt-3">
-                <div class="col text-center">
-                    <img class="img-fluid" style="height: 10rem; width: 15rem;" src="./assets/img/home clients.png">
-                </div>
-            </div>
-
-            <div class="row pb-4">
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13878.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13886.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13894.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13895.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13896.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13897.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13898.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13899.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13900.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13901.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13861.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13863.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13864.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13865.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13866.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13867.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13868.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13869.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13870.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13871.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13872.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13873.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13874.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13875.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13876.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13877.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13879.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13880.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13881.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13882.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13883.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13884.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13885.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13887.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13888.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13889.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13890.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13891.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13892.png" class="img-fluid">
-                </div>
-
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <img src="./assets/img/Group 13893.png" class="img-fluid">
-                </div>
-
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- review section start -->
-    <!-- <section style="overflow-x: hidden; margin-bottom: 100px">
-        <div class="row pt-5" id="swiper2">
-            <div class="col px-5 pb-4 text-white d-flex justify-content-center">
-                <h4><b>Client Testimonials</b></h4>
-            </div>
-            <div class="swiper2 swiper px-5 pb-5 card-group">
-                <div class="swiper-wrapper pb-5 ">
-
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/inspiringindians-test.png" style="width: 12rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I am satisfied, and the manner in which this team carried out
-                                    their duties increased my sales, and there is currently no difficulty. It was
-                                    completed exactly according to my instructions, and I am grateful. I will
-                                    undoubtedly collaborate with them in the future.</p>
-                                <div class="card-footer border-0">
-                                    <h6>Saran</h6>
-                                    <p>From inspiring indians</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card h-80">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/futecttech-test.png" style="width: 8rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I was right to be sceptical about getting a logo and website
-                                    designed for my startup. I choose Skygoal Tech because they were able to comprehend
-                                    our needs. They were on schedule with the project delivery and had fantastic
-                                    communication.</p>
-                                <div class="card-footer border-0">
-                                    <h6>Dhanush</h6>
-                                    <p>From Future Tech It Global</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card h-80">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/phlox energy-test.png" style="width: 8rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I'd seen folks praising their work before and thought I'd give
-                                    it a shot to give a project . I'm quite happy with the outcome. I wasn't expecting
-                                    much, maybe some grasp of my industry or some ideas, but they went above and beyond
-                                    and designed a logo based on my tastes after considering all of the variables I gave
-                                    at the outset. That was also incorporated into their artistic concept. The team is
-                                    also incredibly kind and responsive.</p>
-                                <div class="card-footer border-0">
-                                    <h6>sirazuddin</h6>
-                                    <p>From Pholex Energy </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card h-80">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/inspiringindians-test.png" style="width: 12rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I recommend this team of individuals, they are totally awesome
-                                    and great to work with they just don't take your word for it, they truly observe
-                                    what is happening and analyze, the moment they see things are not working they make
-                                    changes</p>
-                                <div class="card-footer border-0">
-                                    <h6>------</h6>
-                                    <p>From Newishkart</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card h-80">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/arrowMonk-test.png" style="width: 12rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I have to say I'm impressed. I have a friend who is a
-                                    Marketing Agency owner and he recommended you guys. I must say, this has been a
-                                    great experience so far!</p>
-                                <div class="card-footer border-0">
-                                    <h6>-----</h6>
-                                    <p>From Arrowmonk</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card h-80">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/evergreen-test.png" style="width: 5rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I had contacted a few web developers to make my website, they
-                                    took my money and did nothing. I then came across this young team, they designed the
-                                    site on time and within budget.I was happy with my service and i will suggest to
-                                    take a service from this team.</p>
-                                <div class="card-footer border-0">
-                                    <h6>Harshit</h6>
-                                    <p>From Evergreeninfra</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card h-80">
-                            <div class="px-5 py-3 text-center" id="image">
-                                <img src="./assets/img/leteducate-logo-test.png" style="width: 15rem;height: 5rem;"
-                                    class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text px-3">I have dealt with few web designer but skygoaltech has the
-                                    best team to provide service and they are very helpful i love this team because they
-                                    are not only developers but they can suggest you what is the right thing to do for
-                                    your business.</p>
-                                <div class="card-footer border-0">
-                                    <h6>Teja </h6>
-                                    <p>From Leteducate</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-
-            </div>
-        </div>
-    </section> -->
-
     <!-- enter your email section  -->
-    <section class="container mb-5">
+    <section class="container mb-5" style="padding-top: 150px;">
         <div class="join">
             <div>
                 <h2 class="fw-bold text-center">Join Skygoal today!</h2>
@@ -656,9 +289,6 @@
 
         });
     </script>
-
-
-
 
 </body>
 

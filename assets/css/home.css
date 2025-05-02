@@ -290,3 +290,32 @@ div#testimonials {
         transform: translateX(-50%);
     }
 }
+
+.whyChooseContent {
+    color: #00000099;
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+.whyChooseContentNumStyles {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.whyChooseContentSymbol {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.companyAchivements {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .companyAchivements {
+        gap: 50px;
+    }
+}
